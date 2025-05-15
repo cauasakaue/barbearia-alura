@@ -1,12 +1,19 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Produtos - Barbearia Alura</title>
-        <link rel="stylesheet" href="produtos.css">
-    </head>
-    <body>
-        <header>
+header {
+background: #BBBBBB;
+padding: 20px 0;
+}
+
+<head>
+    <meta charset="UTF-8">
+    <title>Produtos - Barbearia Alura</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="produtos.css">
+</head>
+
+<body>
+    <header>
+        <h1><img src="logo.png"></h1>
+        <div class="caixa">
             <h1><img src="logo.png"></h1>
 
             <nav>
@@ -16,6 +23,19 @@
                     <li><a href="contato.html">Contato</a></li>
                 </ul>
             </nav>
-        </header>
-    </body>
-</html>
+        </div>
+
+    </header>
+</body>
+
+</html>.caixa {
+position: relative;
+width: 940px;
+margin: 0 auto;
+}
+
+nav {
+position: absolute;
+top: 110px;
+right: 0;
+}
